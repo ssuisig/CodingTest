@@ -6,12 +6,12 @@ public class Solution {
         int count = 1;
 
         while(n > 1)
-        if(n % 2 == 0)
-            n /= 2;
-        else{
-            n /= 2;
-            count++;
-        }
+            if(n % 2 == 0)
+                n /= 2;
+            else{
+                n /= 2;
+                count++;
+            }
 
         return count;
     }
