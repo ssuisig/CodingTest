@@ -17,9 +17,7 @@ class Solution
                 n /= 2;
                 a = a%2 ==0 ? a/2:a/2+1;
                 b = b%2 ==0 ? b/2:b/2+1;
-                System.out.println(n+" "+a+" "+b);
                 answer++;
-                System.out.println(answer);
             }
             else{
                 n /=2;
